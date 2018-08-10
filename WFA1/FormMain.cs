@@ -23,7 +23,10 @@ namespace WFA1
 
         private void button1_Click(object sender, EventArgs e)
         {
-           MessageBox.Show(Class1.HelloMsg("Joe"));
-       }
+            MessageBox.Show(Class1.HelloMsg("Joe"));
+            MessageBox.Show(Class1.HelloMsg(""));
+            MessageBox.Show(Class1.HelloMsg("       "));
+            MessageBox.Show(Class1.HelloMsg(null));
+        }
     }
 }

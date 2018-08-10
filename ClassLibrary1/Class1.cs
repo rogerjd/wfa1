@@ -10,7 +10,16 @@ namespace ClassLibrary1
     {
         public static string HelloMsg(string name)
         {
-            return "Hello, " + name;
+            string res = "Hello";
+            if (string.IsNullOrWhiteSpace(name))
+            {
+                res += "!";
+            }
+            else
+            {
+                res += " " + name + "!";
+            }
+            return res;
         }
     }
 }
