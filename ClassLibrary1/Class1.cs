@@ -21,5 +21,7 @@ namespace ClassLibrary1
             }
             return res;
         }
+
+        public int MyProperty { get; set; }
     }
 }

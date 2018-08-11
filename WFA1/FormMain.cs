@@ -27,6 +27,9 @@ namespace WFA1
             MessageBox.Show(Class1.HelloMsg(""));
             MessageBox.Show(Class1.HelloMsg("       "));
             MessageBox.Show(Class1.HelloMsg(null));
+
+            Class1 c1 = new Class1() { MyProperty = 3 };
+            Class1 c2 = new Class1 { MyProperty = 3 };
         }
     }
 }
