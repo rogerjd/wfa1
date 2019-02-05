@@ -1,4 +1,4 @@
-﻿namespace WFA1
+﻿namespace WindowsFormsApplication1
 {
     partial class FormMain
     {
@@ -33,6 +33,7 @@
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.closeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.button1 = new System.Windows.Forms.Button();
+            this.winCtrlsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -63,6 +64,7 @@
             // fileToolStripMenuItem
             // 
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.winCtrlsToolStripMenuItem,
             this.closeToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 22);
@@ -71,7 +73,7 @@
             // closeToolStripMenuItem
             // 
             this.closeToolStripMenuItem.Name = "closeToolStripMenuItem";
-            this.closeToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
+            this.closeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.closeToolStripMenuItem.Text = "Close";
             this.closeToolStripMenuItem.Click += new System.EventHandler(this.closeToolStripMenuItem_Click);
             // 
@@ -84,6 +86,13 @@
             this.button1.Text = "Hello Msg";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // winCtrlsToolStripMenuItem
+            // 
+            this.winCtrlsToolStripMenuItem.Name = "winCtrlsToolStripMenuItem";
+            this.winCtrlsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.winCtrlsToolStripMenuItem.Text = "WinCtrls";
+            this.winCtrlsToolStripMenuItem.Click += new System.EventHandler(this.winCtrlsToolStripMenuItem_Click);
             // 
             // FormMain
             // 
@@ -110,6 +119,7 @@
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem closeToolStripMenuItem;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.ToolStripMenuItem winCtrlsToolStripMenuItem;
     }
 }
 

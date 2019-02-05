@@ -2,7 +2,7 @@
 using System.Windows.Forms;
 using ClassLibrary1;
 
-namespace WFA1
+namespace WindowsFormsApplication1
 {
     public partial class FormMain : Form
     {
@@ -30,6 +30,12 @@ namespace WFA1
 
             Class1 c1 = new Class1() { MyProperty = 3 };
             Class1 c2 = new Class1 { MyProperty = 3 };
+        }
+
+        private void winCtrlsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            WinCtrls frm = new WinCtrls();
+            frm.ShowDialog();
         }
     }
 }
