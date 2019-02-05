@@ -29,7 +29,7 @@ namespace WindowsFormsApplication1
 
         private void button3_Click(object sender, EventArgs e)
         {
-            treeView1.Nodes[0].Nodes.Add("child node");
+            treeView1.Nodes[treeView1.SelectedNode.Index].Nodes.Add("child node");
         }
     }
 }
